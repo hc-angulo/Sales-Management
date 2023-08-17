@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "ad36b316-2969-4528-92d6-dc20adaadf98",
+		"name": "sales",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "19252750"
+	},
+	"item": [
+		{
+			"name": "Get Customers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/customers/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/api/customers/create"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Customer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/customers/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8080/api/customers/edit/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/products/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/api/products/create"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/products/delete/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8080/api/products/edit/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By Words",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/products/find_by_Words/acer"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product out stock",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products by price range",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Invoices",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Invoice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/invoices/4"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Invoice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2023-08-10\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/invoices/create"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Invoice",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/invoices/delete/3"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Invoices Detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/invoices/invoice_detail"
+			},
+			"response": []
+		},
+		{
+			"name": "Create invoice detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/api/invoices/create/invoice_detail"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Invoice Detail",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/invoices/delete/invoice_detail/1"
+			},
+			"response": []
+		}
+	]
+}
